@@ -1,0 +1,5 @@
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427000_0.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427000_1.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427000_2.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427000_3.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427000_4.root

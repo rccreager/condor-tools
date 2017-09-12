@@ -1,0 +1,10 @@
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_0.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_1.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_2.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_3.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_4.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_5.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_6.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_7.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_8.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/data/merge_data_9.root

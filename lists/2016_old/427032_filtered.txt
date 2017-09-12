@@ -1,0 +1,17 @@
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_0.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_10.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_11.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_12.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_13.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_14.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_15.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_16.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_1.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_2.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_3.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_4.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_5.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_6.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_7.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_8.root
+/disk/userdata00/atlas_data2/rcreager/pTRel_calibration/tuples/mc/filtered/merge_427032_9.root
