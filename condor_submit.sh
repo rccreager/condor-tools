@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source helpers.sh
-
 #######a few global variables...
 testMode=false #set to false to run, true to check printouts only
 storage_location="/disk/userdata00/atlas_data2/rcreager/condor_storage/24August/" #use trailing /
