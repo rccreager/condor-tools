@@ -8,5 +8,46 @@ Caveat emptor -- to use these tools, you'll
 need some basic familiarity with string
 parsing in bash.
 
+This is a set of tools for working with condor
+batch processing.
+
+To submit a job to condor, you need to create a submission script in a specific format and call:
+condor_submit submit.sh
+
+Here’s an example of a submit script: 
+clean/submit_RAC.sh
+To explain what each of those things mean:
+- Universe: determines some meta-variables for how jobs are run. I’ve never used anything besides vanilla but others do exist
+- Executable: you *can* point to an actual executable here, but pointing to a script is much more flexible, as I’ll describe below
+- Log: where your std log goes 
+- Output: where your std out goes
+- Error: where your std error goes
+- Queue: this tells condor to add your job to the queue
+
+You’ll notice that my submit script points to a run_wrapper.sh:
+clean/run_wrapper.sh
+I use the run_wrapper so that I can run a bunch of commands in one condor job. This is necessary
+if you want to use setupATLAS, root, etc. You can also copy files to your scratch disk, compile, etc.
+In my script, “AAA” will be replaced with the actual command I want to run.
+
+Of course, looking at the files I’ve indicated, you can see that not everything is filled in: I’ve left spots 
+marked with AAA, BBB, etc, to be filled in with sed. 
+I usually process condor jobs by making “clean copies” of my submit.sh and run_wrapper.sh files,
+then for each task, I make uniquely named copies in storage location, then sed as necessary. 
+In the end, you’ll have two scripts for each job, but it’s very easy to re-run a randomly failed job or look at your
+scripts to try to determine why a task failed.
+
+Depending on how powerful you want your tools to be, you can automate a ton of stuff this way. 
+My driver script (condor_submit.sh) 
+reads all my input files from a txt file, makes the run_wrapper.sh and submit.sh for each job,
+submits them, and makes a verify.sh script to run afterward all the jobs are done (which checks
+if the output exists and has non-zero size). 
+
+This is where the string parsing comes in -- there are a few strings that are made by parsing
+your input file path and name., so it's very dependent on the path to your input and the 
+formatting of your filenames. These strings are:
+mc_num
+temp
+file_num
 
 
